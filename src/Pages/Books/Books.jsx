@@ -19,7 +19,7 @@ const Books = () => {
     },[])
     return (
         <div>
-            <h1>Ami books</h1>
+            <h1 className='text-5xl font-bold text-center p-6'>Books</h1>
         </div>
     );
 };
