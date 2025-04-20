@@ -4,7 +4,7 @@ import { Link } from 'react-router';
 
 const Book = ({ singleBook }) => {
   // console.log(singleBook);
-  const { bookName, author, bookId, image, category, rating, tags,
+  const { bookName,  bookId, image, category, rating, tags,
     publisher,
     yearOfPublishing
   } = singleBook;
